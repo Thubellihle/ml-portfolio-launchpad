@@ -31,13 +31,13 @@ const Resume = () => {
                 <Mail className="h-4 w-4" />
                 titithubelihle@gmail.com
               </a>
-              <a href="tel:+27796768949" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <a href="tel:0826192529" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Phone className="h-4 w-4" />
-                +27 79 676 8949
+                082 619 2529
               </a>
               <span className="flex items-center gap-1">
                 <MapPin className="h-4 w-4" />
-                Durban, South Africa
+                Johannesburg, South Africa
               </span>
               <a href="https://linkedin.com/in/thubelihle-titi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Linkedin className="h-4 w-4" />
