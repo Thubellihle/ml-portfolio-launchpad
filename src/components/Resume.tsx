@@ -76,7 +76,7 @@ const Resume = () => {
                   <p className="font-semibold">Bachelor of Information and Communications Technology (Honours)</p>
                   <p className="text-muted-foreground">Durban University of Technology</p>
                 </div>
-                <p className="text-muted-foreground">2024</p>
+                <p className="text-muted-foreground">2025</p>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ const Resume = () => {
               <div>
                 <div className="flex justify-between items-start mb-1">
                   <p className="font-semibold">Logic League Sentiment Analyzer</p>
-                  <p className="text-sm text-muted-foreground">2024</p>
+                  <p className="text-sm text-muted-foreground">2025</p>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
                   AI-Powered Sentiment Analysis Application
@@ -143,7 +143,7 @@ const Resume = () => {
               <div>
                 <div className="flex justify-between items-start mb-1">
                   <p className="font-semibold">Daily Dose Ignite</p>
-                  <p className="text-sm text-muted-foreground">2024</p>
+                  <p className="text-sm text-muted-foreground">2025</p>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
                   AI-Powered Motivational Platform
@@ -159,7 +159,7 @@ const Resume = () => {
               <div>
                 <div className="flex justify-between items-start mb-1">
                   <p className="font-semibold">Educal App</p>
-                  <p className="text-sm text-muted-foreground">2024</p>
+                  <p className="text-sm text-muted-foreground">2025</p>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
                   Educational Management Platform
@@ -175,7 +175,7 @@ const Resume = () => {
               <div>
                 <div className="flex justify-between items-start mb-1">
                   <p className="font-semibold">Grad Job Application Platform</p>
-                  <p className="text-sm text-muted-foreground">2024</p>
+                  <p className="text-sm text-muted-foreground">2025</p>
                 </div>
                 <p className="text-sm text-muted-foreground mb-2">
                   Career Development Application
