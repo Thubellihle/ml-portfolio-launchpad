@@ -246,7 +246,7 @@ const Resume = () => {
               <div>
                 <p className="font-semibold mb-1">Languages:</p>
                 <p className="text-muted-foreground">
-                  English (Fluent), Zulu (Native)
+                  English (Fluent), Xhosa (Native)
                 </p>
               </div>
             </div>
