@@ -16,21 +16,21 @@ const Projects = () => {
       description: "A comprehensive platform designed to streamline the graduate job application process, helping recent graduates navigate their career journey with ease.",
       tags: ["Web Development", "Career", "Education"],
       github: "https://github.com/Thubellihle/GradJobApplication",
-      live: "https://github.com/Thubellihle/GradJobApplication",
+      live: "https://grad-job-application.vercel.app/",
     },
     {
       title: "Logic League Sentiment Analyzer",
       description: "An intelligent sentiment analysis tool that leverages machine learning to analyze and classify text sentiment, providing valuable insights for data-driven decision making.",
       tags: ["Machine Learning", "NLP", "Data Analysis"],
       github: "https://github.com/Thubellihle/Logic-League-Sentiment-Analyzer",
-      live: "https://github.com/Thubellihle/Logic-League-Sentiment-Analyzer",
+      live: "https://logic-league.github.io/Logic-League-Sentiment-Analyzer/",
     },
     {
       title: "Educal App",
       description: "An educational platform focused on enhancing learning experiences through interactive features and modern web technologies.",
       tags: ["Education", "Web Development", "Interactive"],
       github: "https://github.com/Thubellihle/educal-app",
-      live: "https://ml-portfolio-launchpad.lovable.app/",
+      live: "https://logic-league.vercel.app/",
     },
   ];
 
