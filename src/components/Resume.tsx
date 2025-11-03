@@ -201,31 +201,31 @@ const Resume = () => {
               <div className="grid md:grid-cols-2 gap-2 text-sm">
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Generative AI with LLMs - DeepLearning.AI, AWS (92.49%)</p>
+                  <p className="text-muted-foreground">Generative AI with LLMs - DeepLearning.AI, AWS</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Supervised ML: Regression - Stanford, DeepLearning.AI (99.60%)</p>
+                  <p className="text-muted-foreground">Supervised ML: Regression - Stanford, DeepLearning.AI</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">AI Prompt Engineering - Arizona State University (100%)</p>
+                  <p className="text-muted-foreground">AI Prompt Engineering - Arizona State University</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Introduction to Generative AI - Google Cloud (87.50%)</p>
+                  <p className="text-muted-foreground">Introduction to Generative AI - Google Cloud</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">AI Essentials - Intel (86.78%)</p>
+                  <p className="text-muted-foreground">AI Essentials - Intel</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Introduction to AI - IBM (82%)</p>
+                  <p className="text-muted-foreground">Introduction to AI - IBM</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Python for Data Science & AI - IBM (91%)</p>
+                  <p className="text-muted-foreground">Python for Data Science & AI - IBM</p>
                 </div>
               </div>
             </div>
@@ -235,19 +235,19 @@ const Resume = () => {
               <div className="grid md:grid-cols-2 gap-2 text-sm">
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Emotional Intelligence - Arizona State University (100%)</p>
+                  <p className="text-muted-foreground">Emotional Intelligence - Arizona State University</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Professional Voice & Impact - University of London (95.31%)</p>
+                  <p className="text-muted-foreground">Professional Voice & Impact - University of London</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Leading with Impact - Coursera (100%)</p>
+                  <p className="text-muted-foreground">Leading with Impact - Coursera</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Time Management - UC Irvine (95.83%)</p>
+                  <p className="text-muted-foreground">Time Management - UC Irvine</p>
                 </div>
               </div>
             </div>
