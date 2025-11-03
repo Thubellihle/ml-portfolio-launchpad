@@ -31,9 +31,9 @@ const Resume = () => {
                 <Mail className="h-4 w-4" />
                 titithubelihle@gmail.com
               </a>
-              <a href="tel:0826192529" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <a href="tel:0725704654" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Phone className="h-4 w-4" />
-                082 619 2529
+                072 570 4654
               </a>
               <span className="flex items-center gap-1">
                 <MapPin className="h-4 w-4" />
