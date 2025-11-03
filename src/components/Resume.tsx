@@ -195,38 +195,98 @@ const Resume = () => {
             <h3 className="text-xl font-bold text-primary mb-3 border-l-4 border-primary pl-3">
               Professional Certifications
             </h3>
-            <div className="grid md:grid-cols-2 gap-2 text-sm">
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">Microsoft Azure Fundamentals (AZ-900)</p>
+            
+            <div className="mb-4">
+              <p className="font-semibold text-sm mb-3">AI & Machine Learning:</p>
+              <div className="grid md:grid-cols-2 gap-2 text-sm">
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Generative AI with LLMs - DeepLearning.AI, AWS (92.49%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Supervised ML: Regression - Stanford, DeepLearning.AI (99.60%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">AI Prompt Engineering - Arizona State University (100%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Introduction to Generative AI - Google Cloud (87.50%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">AI Essentials - Intel (86.78%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Introduction to AI - IBM (82%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Python for Data Science & AI - IBM (91%)</p>
+                </div>
               </div>
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">Full Stack Development (FNB App Academy)</p>
+            </div>
+
+            <div className="mb-4">
+              <p className="font-semibold text-sm mb-3">Professional Development:</p>
+              <div className="grid md:grid-cols-2 gap-2 text-sm">
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Emotional Intelligence - Arizona State University (100%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Professional Voice & Impact - University of London (95.31%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Leading with Impact - Coursera (100%)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Time Management - UC Irvine (95.83%)</p>
+                </div>
               </div>
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">Microsoft Explore AI: Responsible AI Concepts</p>
-              </div>
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">IBM SkillsBuild: Fundamentals of Cybersecurity</p>
-              </div>
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">Cisco: Introduction to Cybersecurity</p>
-              </div>
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">Cisco: Networking Essentials</p>
-              </div>
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">Cisco: Introduction to IoT</p>
-              </div>
-              <div className="flex items-start gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                <p className="text-muted-foreground">Microsoft Office Specialist (Word, Excel, PowerPoint)</p>
+            </div>
+
+            <div>
+              <p className="font-semibold text-sm mb-3">Technical & Cloud:</p>
+              <div className="grid md:grid-cols-2 gap-2 text-sm">
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Microsoft Azure Fundamentals (AZ-900)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Full Stack Development (FNB App Academy)</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Microsoft Explore AI: Responsible AI</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Cybersecurity Fundamentals - IBM SkillsBuild</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Cisco: Introduction to Cybersecurity</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Cisco: Networking Essentials</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Cisco: Introduction to IoT</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                  <p className="text-muted-foreground">Microsoft Office Specialist</p>
+                </div>
               </div>
             </div>
           </div>

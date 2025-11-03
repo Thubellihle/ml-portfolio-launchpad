@@ -30,6 +30,17 @@ const Skills = () => {
     "Microsoft Azure Fundamentals (AZ900)",
     "Full Stack Development (FNB App Academy)",
     "Microsoft Explore AI: Responsive AI Concepts",
+    "Generative AI with Large Language Models - DeepLearning.AI, AWS (92.49%)",
+    "Supervised Machine Learning: Regression and Classification - DeepLearning.AI, Stanford (99.60%)",
+    "AI Foundations: Prompt Engineering with ChatGPT - Arizona State University (100%)",
+    "Introduction to Generative AI - Google Cloud (87.50%)",
+    "AI Essentials - Intel (86.78%)",
+    "Emotional Intelligence - Arizona State University (100%)",
+    "Finding Your Professional Voice: Confidence & Impact - University of London (95.31%)",
+    "Leading with Impact: Team Dynamics, Strategy and Ethics - Coursera (100%)",
+    "Work Smarter, Not Harder: Time Management - UC Irvine (95.83%)",
+    "Introduction to Artificial Intelligence (AI) - IBM (82%)",
+    "Python for Data Science, AI & Development - IBM (91%)",
   ];
 
   return (
