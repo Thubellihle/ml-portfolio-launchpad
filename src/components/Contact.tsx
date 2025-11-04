@@ -45,12 +45,42 @@ const Contact = () => {
         </h2>
 
         <Card className="p-8 md:p-12 bg-card/50 backdrop-blur-sm border-primary/20">
-          <p className="text-center text-lg text-muted-foreground mb-8">
-            I'm currently seeking opportunities to contribute to innovative projects 
-            and grow my skills. Feel free to reach out if you'd like to connect!
-          </p>
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold mb-4">Let's Build Something Amazing Together</h3>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              I'm actively seeking <strong className="text-foreground">AI/ML Developer, Full-Stack Engineer, or Data Science</strong> opportunities 
+              where I can apply my expertise in machine learning, cloud computing, and intelligent application development. 
+              Whether you're a recruiter, hiring manager, or fellow developer interested in collaboration, I'd love to connect!
+            </p>
+          </div>
 
-          <div className="space-y-4 mb-8">
+          {/* Quick CTA Buttons */}
+          <div className="flex flex-wrap gap-4 justify-center mb-8">
+            <Button 
+              size="lg" 
+              className="gap-2 bg-gradient-primary hover:shadow-glow-primary"
+              asChild
+            >
+              <a href="mailto:titithubelihle@gmail.com">
+                <Mail className="h-5 w-5" />
+                Email Me
+              </a>
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="gap-2 border-primary/50 hover:bg-card"
+              asChild
+            >
+              <a href="https://www.linkedin.com/in/thubelihle-titi-a62992287" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-5 w-5" />
+                Connect on LinkedIn
+              </a>
+            </Button>
+          </div>
+
+          <div className="space-y-4 mb-8 pt-8 border-t border-primary/20">
+            <p className="text-center text-sm text-muted-foreground mb-4">Or reach me through:</p>
             {contactInfo.map((info, index) => (
               <div 
                 key={index}
@@ -76,21 +106,24 @@ const Contact = () => {
             ))}
           </div>
 
-          <div className="flex flex-wrap gap-4 justify-center">
-            {socialLinks.map((social, index) => (
-              <Button
-                key={index}
-                variant="outline"
-                size="lg"
-                className="border-primary/50 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                asChild
-              >
-                <a href={social.link} target="_blank" rel="noopener noreferrer">
-                  <social.icon className="h-5 w-5 mr-2" />
-                  {social.label}
-                </a>
-              </Button>
-            ))}
+          <div className="pt-8 border-t border-primary/20">
+            <p className="text-center text-sm text-muted-foreground mb-4">Connect with me on:</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              {socialLinks.map((social, index) => (
+                <Button
+                  key={index}
+                  variant="outline"
+                  size="lg"
+                  className="border-primary/50 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                  asChild
+                >
+                  <a href={social.link} target="_blank" rel="noopener noreferrer">
+                    <social.icon className="h-5 w-5 mr-2" />
+                    {social.label}
+                  </a>
+                </Button>
+              ))}
+            </div>
           </div>
         </Card>
       </div>

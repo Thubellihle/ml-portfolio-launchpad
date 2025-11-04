@@ -50,19 +50,30 @@ const Resume = () => {
             </div>
           </div>
 
-          {/* Professional Summary */}
+          {/* Professional Summary - ATS Optimized */}
           <div>
             <h3 className="text-xl font-bold text-primary mb-3 border-l-4 border-primary pl-3">
               Professional Summary
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Results-driven ICT Honours graduate with expertise in AI/ML development, full-stack web development, 
-              and cybersecurity. Proven track record of building intelligent applications including sentiment analysis 
-              systems, AI-powered motivational platforms, and educational management solutions. Strong foundation in 
-              cloud computing (Azure), data analytics, and IoT security. Passionate about leveraging machine learning 
-              and artificial intelligence to solve real-world problems and drive digital transformation in South Africa's 
-              tech ecosystem.
+              <strong>AI/ML Developer and Full-Stack Engineer</strong> with proven expertise in machine learning, 
+              natural language processing, and cloud computing. Skilled in Python, React, TypeScript, and Microsoft Azure. 
+              Demonstrated success in building intelligent applications including sentiment analysis systems achieving 90%+ accuracy, 
+              AI-powered platforms with personalized recommendation engines, and scalable web applications. Strong foundation in 
+              cybersecurity principles, data analytics, and IoT technologies. Passionate about leveraging artificial intelligence 
+              and machine learning to solve complex business challenges and drive digital transformation. Seeking opportunities to 
+              contribute technical expertise in AI/ML development, full-stack engineering, or data science roles.
             </p>
+            
+            {/* Key Skills Highlight for ATS */}
+            <div className="mt-4 p-4 bg-muted/20 rounded-lg border border-primary/10">
+              <p className="text-sm font-semibold mb-2">Core Technical Skills:</p>
+              <p className="text-sm text-muted-foreground">
+                Machine Learning • Natural Language Processing • Sentiment Analysis • Python • React • TypeScript • 
+                JavaScript • HTML5 • CSS3 • Microsoft Azure • Cloud Computing • Cybersecurity • Data Analytics • 
+                RESTful APIs • Git/GitHub • Full-Stack Development • Agile Methodologies • Problem Solving
+              </p>
+            </div>
           </div>
 
           {/* Education */}
