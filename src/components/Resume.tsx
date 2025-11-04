@@ -70,13 +70,34 @@ const Resume = () => {
             <h3 className="text-xl font-bold text-primary mb-3 border-l-4 border-primary pl-3">
               Education
             </h3>
-            <div className="space-y-2">
+            <div className="space-y-4">
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-semibold">Bachelor of Information and Communications Technology (Honours)</p>
                   <p className="text-muted-foreground">Durban University of Technology</p>
                 </div>
                 <p className="text-muted-foreground">2025</p>
+              </div>
+              <div className="flex justify-between items-start">
+                <div>
+                  <p className="font-semibold">Advanced Diploma in ICT: Applications Development</p>
+                  <p className="text-muted-foreground">Durban University of Technology</p>
+                </div>
+                <p className="text-muted-foreground">2023</p>
+              </div>
+              <div className="flex justify-between items-start">
+                <div>
+                  <p className="font-semibold">Diploma in ICT: Applications Development</p>
+                  <p className="text-muted-foreground">Durban University of Technology</p>
+                </div>
+                <p className="text-muted-foreground">2022</p>
+              </div>
+              <div className="flex justify-between items-start">
+                <div>
+                  <p className="font-semibold">Matric</p>
+                  <p className="text-muted-foreground">High School</p>
+                </div>
+                <p className="text-muted-foreground">2018</p>
               </div>
             </div>
           </div>
